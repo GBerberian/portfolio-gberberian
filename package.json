@@ -1,12 +1,13 @@
 {
   "name": "simplefolio",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
   "version": "1.0.1",
   "private": "true",
   "description": "A clean, beautiful and responsive portfolio template for Developers!",
   "source": "src/index.html",
   "scripts": {
-    "parcel": "src/index.html",
-    "build": "parcel build"
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html"
   },
   "repository": {
     "type": "git",
